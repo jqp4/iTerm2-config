@@ -1,4 +1,4 @@
-# .p10k.zsh
+# ~/.p10k.zsh colors
 
 ```zsh
   # Current directory background color.
@@ -21,4 +21,8 @@
   # Styling for different parts of Git status.
   local meta='%8F' # gray foreground
 
+  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=0
+  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND=210
+  typeset -g POWERLEVEL9K_STATUS_OK_PIPE_FOREGROUND=0
+  typeset -g POWERLEVEL9K_STATUS_OK_PIPE_BACKGROUND=210
 ```
