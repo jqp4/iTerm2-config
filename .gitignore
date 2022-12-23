@@ -1,129 +1,82 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,zsh
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,zsh
 
-# C extensions
-*.so
+### Linux ###
+*~
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# KDE directory preferences
+.directory
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
-# Translations
-*.mo
-*.pot
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+# Icon must end with two \r
+Icon
 
-# Flask stuff:
-instance/
-.webassets-cache
 
-# Scrapy stuff:
-.scrapy
+# Thumbnails
+._*
 
-# Sphinx documentation
-docs/_build/
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# PyBuilder
-target/
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Jupyter Notebook
-.ipynb_checkpoints
+### macOS Patch ###
+# iCloud generated files
+*.icloud
 
-# IPython
-profile_default/
-ipython_config.py
+### Zsh ###
+# Zsh compiled script + zrecompile backup
+*.zwc
+*.zwc.old
 
-# pyenv
-.python-version
+# Zsh completion-optimization dumpfile
+*zcompdump*
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+# Zsh zcalc history
+.zcalc_history
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
+# A popular plugin manager's files
+._zinit
+.zinit_lstupd
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+# zdharma/zshelldoc tool's files
+zsdoc/data
 
-# SageMath parsed files
-*.sage.py
+# robbyrussell/oh-my-zsh/plugins/per-directory-history plugin's files
+# (when set-up to store the history in the local directory)
+.directory_history
 
-# Environments
-.env
+# MichaelAquilina/zsh-autoswitch-virtualenv plugin's files
+# (for Zsh plugins using Python)
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Zunit tests' output
+/tests/_output/*
+!/tests/_output/.gitkeep
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
+# End of https://www.toptal.com/developers/gitignore/api/macos,linux,zsh

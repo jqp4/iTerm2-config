@@ -1,1 +1,1 @@
-# iTerm2-config
+# iTerm2 config
